@@ -108,8 +108,6 @@ def process_chunk(thread_id, chunk):
     local_result = 0
     try:
         for element in chunk:
-            # Process element
-            # For example, extract information and perform some logic
             account, action, amount_str, to_account = test.get_transaction_info(element)
             amount = int(amount_str)
 
