@@ -2,8 +2,7 @@ import random
 
 transactions = {}
 
-# Loop to generate transactions for each group of 10
-for i in range(1, 10000, 10):
+for i in range(1, 100, 10):
     for j in range(i, i + 10):
         account_num = random.randint(1, 10)
         transactions[j] = {
@@ -15,7 +14,6 @@ for i in range(1, 10000, 10):
             "Dependency": []
         }
 
-        # Add dependencies for transactions 2 to 9 in each group
         if j > i + 1:
             transactions[j]["Dependency"] = list(range(i + 1, j))
 
