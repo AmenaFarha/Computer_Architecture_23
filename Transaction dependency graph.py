@@ -25,12 +25,7 @@ def process_data(data):
 def call_consensus():
     processor_count = 4
     #subprocess.run(["mpiexec", "-n", str(processor_count), "python", "protocol.py", trans_data])
-    subprocess.run(["mpiexec", "-n", str(processor_count), "python", "PBFT.py", trans_data])
-
-def calculate_throughput(start_time, end_time, num_transactions):
-    total_time = end_time - start_time
-    throughput = num_transactions / total_time
-    return throughput
+    #subprocess.run(["mpiexec", "-n", str(processor_count), "python", "PBFT.py", trans_data])
 
 if rank == 0:
     for transaction, info in test.transactions.items():
@@ -67,13 +62,16 @@ if rank == 0:
         fully_independent_transactions.extend(current_group)
         call_consensus()
         dependent_transactions = [t for t in dependent_transactions if t not in current_group]
-     #print("Execution order:")
+    
+    #print("Execution order:")
      #for group in Track:
-      #print(group)
-     #print("Full order:")    
+       #print(group)
+       #print("Full order:")    
      #print(fully_independent_transactions)
+    
     total_end_time = time.time()
     total_execution_time = total_end_time - total_start_time
+    
     result = f"Total execution time: {total_execution_time} seconds"
     print(result)
     num_transactions_processed = len(fully_independent_transactions)
