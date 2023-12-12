@@ -26,6 +26,16 @@ This project involves a multi-faceted implementation, combining MPI-based parall
 This project relies on Python and MPI4Py for efficient parallel processing
 pip install mpi4py
 
-### Running Transaction dependency graph Module which will execute all other module parallelly
+### Running Transaction dependency graph Module which will executes all other module parallelly
 
 python Transaction dependency graph.py
+
+### For HPC Enviroment based on AUHPC
+1. **Creating Enviroment for mpi4py:**
+Conda environments:
+https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html
+Installing mpi4py in a conda environment:
+https://anaconda.org/anaconda/mpi4py
+
+3. **Slurm file configuration:**
+
