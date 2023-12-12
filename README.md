@@ -39,7 +39,7 @@ Installing mpi4py in a conda environment:
 https://anaconda.org/anaconda/mpi4py
 
 3. **Slurm file configuration:**
-   #!/bin/bash
+#!/bin/bash
 #SBATCH --job-name=my_project
 #SBATCH --nodes=1
 #SBATCH --ntasks-per-node=10
@@ -47,12 +47,12 @@ https://anaconda.org/anaconda/mpi4py
 #SBATCH --time=00:10:00
 #SBATCH --output=output.txt
 
-# Load the required modules
-module load anaconda3
+-Load the required modules
+~module load anaconda3
 
-# Activate your Python environment
-source activate myenv  # Replace with the actual name of your conda environment
+- Activate your Python environment
+~source activate myenv  # Replace with the actual name of your conda environment
 
-# Run your main Python script
-python Transaction dependency graph.py
+- Run your main Python script
+~python Transaction dependency graph.py
 
