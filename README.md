@@ -1,2 +1,31 @@
 # Computer_Architecture_23
 Title: Parallel execution of Smart Contract in Blockchain 
+
+## Overview
+This project involves a multi-faceted implementation, combining MPI-based parallel processing and a Python-based smart contract system. The primary components include:
+
+1. **test_input module:**
+   -  Generates transactions as an input for the system
+     
+2. **Transaction depenedency graph module:**
+   -  organizes independent transactions into blocks from an imported batch from test_input module. 
+   - after generating each block of independent transactions it pass through the block to the 2PQC_protocol module, which is MPI-based.
+     
+3. **MPI-based 2pqc_protocol Module:**
+   - A module utilizing the Message Passing Interface (MPI) for parallel processing.
+   - Each node of MPI-based program will have multiple threads.
+   - when this module will be called from Transaction depenedency graph module it will 
+     utilize multiple processors and multiple threads within each processors to 
+     enhance parallelism.
+
+2. **Python Smart Contract:**
+   - A simple banking system's smart contract written in Python.
+   - Includes conditions on deploying and interacting with the smart contract.
+
+## Setup and Installation
+This project relies on Python and MPI4Py for efficient parallel processing
+pip install mpi4py
+
+### Running Transaction dependency graph Module which will execute all other module parallelly
+
+python Transaction dependency graph.py
