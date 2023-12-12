@@ -24,6 +24,7 @@ This project involves a multi-faceted implementation, combining MPI-based parall
 
 ## Setup and Installation
 This project relies on Python and MPI4Py for efficient parallel processing
+\\
 pip install mpi4py
 
 ### Running Transaction dependency graph Module which will executes all other module parallelly
