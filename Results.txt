@@ -1,14 +1,34 @@
 =========Rapidchain_PBFT=====================
 Nodes:50
 Transactions: 1000
-Total execution time: 17.440810680389404 seconds
-Throughput: 57.336784300078925 transactions per second
+Total execution time: 15.573569536209106 seconds
+Throughput: 64.21135486472541 transactions per second
 
-Transactions: 1000
+Transactions: 2000
+Total execution time: 17.845881700515747 seconds
+Throughput: 112.07067454348304 transactions per second
 
-Transactions: 1000
-Transactions: 1000
-Transactions: 1000
-Transactions: 1000
-Transactions: 1000
-Transactions: 1000
+Transactions: 3000
+Total execution time: 20.10800337791443 seconds
+Throughput: 149.19432544431746 transactions per second
+
+Transactions: 4000
+Total execution time: 20.584608554840088 seconds
+Throughput: 194.319944892004 transactions per second
+
+Transactions: 6000
+Total execution time: 22.597569227218628 seconds
+Throughput: 265.5152835099201 transactions per second
+
+Transactions: 8000
+Total execution time: 25.70096707344055 seconds
+Throughput: 311.27233372736475 transactions per second
+
+Transactions: 10000
+Total execution time: 27.622700452804565 seconds
+Throughput: 362.0210854143585 transactions per second
+
+Transactions: 20000
+Total execution time: 44.44124102592468 seconds
+Throughput: 450.03243695046797 transactions per second
+
