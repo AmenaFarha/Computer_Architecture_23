@@ -1,62 +1,57 @@
 ===========================SmartFlow===============================
-====================== Optimized PBFT ========================
 Nodes:50
 Transactions: 1000
-
+Total execution time: 2.689549207687378 seconds
+Throughput: 371.8095200272818 transactions per second
 
 Transactions: 2000
-
+Total execution time: 3.121199607849121 seconds
+Throughput: 640.7792680001772 transactions per second
 
 Transactions: 3000
-
+Total execution time: 4.613959550857544 seconds
+Throughput: 650.2007585745793 transactions per second
 
 Transactions: 4000
-
+Total execution time: 5.338982582092285 seconds
+Throughput: 749.2064149856144 transactions per second
 
 Transactions: 6000
-
+Total execution time: 6.352522611618042 seconds
+Throughput: 944.5066734633391 transactions per second
 
 Transactions: 8000
-
+Total execution time: 7.624718189239502 seconds
+Throughput: 1049.2191057356217 transactions per second
 
 Transactions: 10000
-
+Total execution time: 8.176223754882812 seconds
+Throughput: 1223.0585047318493 transactions per second
 
 Transactions: 20000
-
+Total execution time: 15.179616212844849 seconds
+Throughput: 1317.5563676686495 transactions per second
 
 Transactions: 1000
 Nodes:50
-Total execution time: 4.364161252975464 seconds
-Throughput: 229.13910417911458 transactions per second
+Total execution time: 2.689549207687378 seconds
+Throughput: 371.8095200272818 transactions per second
 
 Nodes:40
-Total execution time: 5.491475820541382 seconds
-Throughput: 182.10041028668576 transactions per second
-
+Total execution time: 3.888282299041748 seconds
+Throughput: 257.1829726062961 transactions per second
 
 Nodes:30
+Total execution time: 4.442749738693237 seconds
+Throughput: 225.08582720532303 transactions per second
 
 Nodes:20
-
+Total execution time: 5.002636194229126 seconds
+Throughput: 199.89460779769806 transactions per second
 
 Nodes:10
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Total execution time: 5.77972173690796 seconds
+Throughput: 179.27662040277383 transactions per second
 
 ====================== Optimized PBFT ========================
 Nodes:50
