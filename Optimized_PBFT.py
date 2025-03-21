@@ -183,3 +183,6 @@ if __name__ == '__main__':
     if commit_phase(received_txn, comm, rank, size):
         print(f"Rank {rank} done with commit_phase")
     comm.barrier()
+
+Reference Link: https://ieeexplore.ieee.org/document/9356389
+
