@@ -32,3 +32,23 @@ Transactions: 20000
 Total execution time: 44.44124102592468 seconds
 Throughput: 450.03243695046797 transactions per second
 
+Transactions: 1000
+Nodes:50
+Total execution time: 15.573569536209106 seconds
+Throughput: 64.21135486472541 transactions per second
+
+Nodes:40
+Total execution time: 13.500385522842407 seconds
+Throughput: 74.07195878280795 transactions per second
+
+Nodes:30
+Total execution time: 11.271398305892944 seconds
+Throughput: 88.72013683317155 transactions per second
+
+Nodes:20
+Total execution time: 9.979052066802979 seconds
+Throughput: 100.2099190690337 transactions per second
+
+Nodes:10
+Total execution time: 6.608701944351196 seconds
+Throughput: 151.31564540518465 transactions per second
