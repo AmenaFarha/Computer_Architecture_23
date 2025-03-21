@@ -53,7 +53,7 @@ Nodes:10
 Total execution time: 5.77972173690796 seconds
 Throughput: 179.27662040277383 transactions per second
 
-********************HPC**************************
+***********************HPC**************************
 Nodes:100
 Transactions: 10000
 Total execution time: 6.699835300445557 seconds
@@ -130,6 +130,27 @@ Nodes:10
 Total execution time: 3.5754621028900146 seconds
 Throughput: 279.684127875865 transactions per second
 
+***************************************************
+Nodes:100
+Transactions: 10000
+Total execution time: 20.44143843650818 seconds
+Throughput: 489.20236367222145 transactions per second
+
+Transactions: 15000
+Total execution time: 25.94596552848816 seconds
+Throughput: 578.1245636640616 transactions per second
+
+Transactions: 20000
+Total execution time: 31.665756464004517 seconds
+Throughput: 631.5971015167329 transactions per second
+
+Transactions: 25000
+Total execution time: 48.407899379730225 seconds
+Throughput: 516.444636522861 transactions per second
+
+Transactions: 30000
+Total execution time: 64.11253786087036 seconds
+Throughput: 467.927194913147 transactions per second
 
 =========Rapidchain_PBFT=====================
 Nodes:50
@@ -185,3 +206,25 @@ Throughput: 100.2099190690337 transactions per second
 Nodes:10
 Total execution time: 6.608701944351196 seconds
 Throughput: 151.31564540518465 transactions per second
+
+***************************************************
+Nodes:100
+Transactions: 10000
+Total execution time: 48.40980863571167 seconds
+Throughput: 206.5697072932251 transactions per second
+
+Transactions: 15000
+Total execution time: 64.20830631256104 seconds
+Throughput: 233.61463432754584 transactions per second
+
+Transactions: 20000
+Total execution time: 76.82539081573486 seconds
+Throughput: 260.3305988767419 transactions per second
+
+Transactions: 25000
+Total execution time: 91.03587007522583 seconds
+Throughput: 274.61702710526856 transactions per second
+
+Transactions: 30000
+Total execution time: 156.12035655975342 seconds
+Throughput: 192.15943814807915 transactions per second
