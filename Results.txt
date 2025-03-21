@@ -53,6 +53,28 @@ Nodes:10
 Total execution time: 5.77972173690796 seconds
 Throughput: 179.27662040277383 transactions per second
 
+********************HPC**************************
+Nodes:100
+Transactions: 10000
+Total execution time: 6.699835300445557 seconds
+Throughput: 1492.5740039214058 transactions per second
+
+Transactions: 15000
+Total execution time: 8.600190877914429 seconds
+Throughput: 1744.1473349760747 transactions per second
+
+Transactions: 20000
+Total execution time: 12.265092849731445 seconds
+Throughput: 1310.1787324111726 transactions per second
+
+Transactions: 25000
+Total execution time: 20.94013738632202 seconds
+Throughput: 963.7574245532815 transactions per second
+
+Transactions: 30000
+Total execution time: 35.917861461639404 seconds
+Throughput: 733.1761467574515 transactions per second
+
 ====================== Optimized PBFT ========================
 Nodes:50
 Transactions: 1000
