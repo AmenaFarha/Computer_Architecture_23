@@ -1,3 +1,63 @@
+===========================SmartFlow===============================
+====================== Optimized PBFT ========================
+Nodes:50
+Transactions: 1000
+
+
+Transactions: 2000
+
+
+Transactions: 3000
+
+
+Transactions: 4000
+
+
+Transactions: 6000
+
+
+Transactions: 8000
+
+
+Transactions: 10000
+
+
+Transactions: 20000
+
+
+Transactions: 1000
+Nodes:50
+Total execution time: 4.364161252975464 seconds
+Throughput: 229.13910417911458 transactions per second
+
+Nodes:40
+Total execution time: 5.491475820541382 seconds
+Throughput: 182.10041028668576 transactions per second
+
+
+Nodes:30
+
+Nodes:20
+
+
+Nodes:10
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ====================== Optimized PBFT ========================
 Nodes:50
 Transactions: 1000
